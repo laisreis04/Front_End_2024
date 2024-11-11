@@ -1,3 +1,5 @@
+package FichaPratica_00;
+
 import java.util.Scanner;
 
 public class Ex_05 {
