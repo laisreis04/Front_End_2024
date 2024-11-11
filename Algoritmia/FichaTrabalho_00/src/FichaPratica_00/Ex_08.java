@@ -42,21 +42,29 @@ public class Ex_08 {
 
         //Trabnsformar em minutos e segundos
 
-        //Minutos para segundos
+//        //Minutos para segundos
         int minToSec = (faixa1Min1 + faixa2Min2 + faixa3Min3 + faixa4Min4 + faixa5Min5) * 60;
-
-        //Somar todos os segundos
+//
+//        //Somar todos os segundos
         int totalSegundos = minToSec + (faixa1Sec1 + faixa2Sec2 + faixa3Sec3 + faixa4Sec4 + faixa5Sec5);
+//
+//        //Calcular hora
+//        int hora = totalSegundos /3600;
+//        totalSegundos = totalSegundos % 3600;
+//
+//        //Calcular minutos
+//        int minutos = totalSegundos /60;
+//
+//        // Calcular segundos
+//        totalSegundos = totalSegundos % 60;
 
-        //Calcular hora
+
+        //Outra forma de resolver
+
         int hora = totalSegundos /3600;
-        totalSegundos = totalSegundos % 3600;
+        int minutos = (totalSegundos/60) - (hora*60);
+        totalSegundos = totalSegundos -(hora*3600) - (minutos*60);
 
-        //Calcular minutos
-        int minutos = totalSegundos /60;
-
-        // Calcular segundos
-        totalSegundos = totalSegundos % 60;
 
         System.out.println("Total de tempo do album: " + hora +":" + minutos + ":" + totalSegundos);
 
