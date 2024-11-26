@@ -1,0 +1,96 @@
+body{
+    background:linear-gradient(135deg, hsl(0, 0%, 0%), #070707);
+}
+
+
+
+
+.fotogrupo{
+        background-image: url('/ProgramacaoWeb/SiteCreation/branca.svg'); /* Caminho da imagem */
+        background-size: contain; /* Faz a imagem cobrir toda a área do cabeçalho */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita repetição da imagem */
+        height: 500px; /* Define a altura do cabeçalho (ajuste conforme necessário) */
+        width: 100%; /* Garante que ocupe toda a largura da página */
+        color: white; /* Cor do texto */
+        text-align: center; /* Centraliza o texto horizontalmente */
+        line-height: 100px;
+        margin: 0%; /* Centraliza o texto verticalmente, ajustando à altura */
+        position: relative;
+        
+    }
+
+
+.insta{
+        position: absolute;
+        top: 50%; /* Centraliza verticalmente */
+        left: 20px; /* Define a posição à esquerda */
+        transform: translateY(-50%); /* Ajusta o centro exato verticalmente */
+    }
+
+
+.insta img{
+    filter: invert(1); /* Altera as cores para o negativo */
+    width: 50px; /* Tamanho do ícone */
+    height: auto; /* Mantém proporções do ícone */
+}
+
+.tiktok{
+    position: absolute;
+    top: 70%; /* Centraliza verticalmente */
+    left: 20px; /* Define a posição à esquerda */
+    transform: translateY(-50%); /* Ajusta o centro exato verticalmente */
+    }
+
+.tiktok img{
+    filter: invert(1); /* Altera as cores para o negativo */   
+    width: 50px; /* Tamanho do ícone */
+    height: auto; /* Mantém proporções do ícone */
+}
+
+.face{
+    position: absolute;
+    top: 30%; /* Centraliza verticalmente */
+    left: 20px; /* Define a posição à esquerda */
+    transform: translateY(-50%); /* Ajusta o centro exato verticalmente */
+}
+
+.face img{
+    filter: invert(1); /* Altera as cores para o negativo */
+    width: 50px; /* Tamanho do ícone */
+    height: auto; /* Mantém proporções do ícone */
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+    font-size: larger;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.bio{
+    color: white;
+}
+
+.bio1{
+    margin: 0;
+    padding:0;
+    width: 100%; 
+    display: flex;
+}
+
+.fotobio{
+background-image: url(/ProgramacaoWeb/SiteCreation/fotogrupo2.svg) ;
+width:100%;
+margin:0;
+height: 100%;
+display: block;
+} 
