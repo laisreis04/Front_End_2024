@@ -45,4 +45,26 @@ public class Ex_03 {
     }
 
 
+    public static boolean numeroPerfeito(int numero) {
+
+        int soma = 0;
+        //Ciclo para verificar todoso os números
+        for(int divisor = 1; divisor < numero; divisor++){
+            //verificar se o resto da divisão == 0
+            if(numero % divisor == 0){
+                //Guardar a soma numa variavel
+                soma += divisor;
+            }
+        }
+        //Verificação soma == numero
+        if(soma == numero){
+            return true;
+        }else{
+            return false;
+        }
+
+
+    }
+
+
 }
