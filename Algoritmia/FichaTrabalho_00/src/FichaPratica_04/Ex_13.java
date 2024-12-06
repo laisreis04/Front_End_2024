@@ -21,14 +21,23 @@ public class Ex_13 {
         //Somar os valores da diagnal
         for(int linha = 0; linha < matriz.length; linha++){
             for(int coluna = 0; coluna < matriz.length; coluna++){
-                if(linha ===)
+                if(linha == coluna){
+                    somaDiagonal += matriz[linha][coluna];
+
+                }
             }
         }
 
         //Imprimir a matriz
+        for (int linha = 0; linha < 4; linha++) {
+            for (int col = 0; col < 4; col++) {
+                System.out.print(matriz[linha][col] + " ");
+            }
+            System.out.println(" ");
+        }
 
         //Resultado da soma
-
+        System.out.println("Soma da diagonal: " + somaDiagonal);
 
     }
 }

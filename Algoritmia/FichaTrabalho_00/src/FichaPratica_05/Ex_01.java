@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ex_01 {
 
-/*Método para fazer o barulho do animal escolhido */
+
 public static void fazerBarulho(String animal){
     
     animal.equalsIgnoreCase(animal);
@@ -48,8 +48,5 @@ public static void main(String[] args){
     fazerBarulho(animalEscolhido);
 
 }
-
-
-
-    
+   
 }
