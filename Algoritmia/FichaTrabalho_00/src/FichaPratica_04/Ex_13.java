@@ -29,9 +29,9 @@ public class Ex_13 {
         }
 
         //Imprimir a matriz
-        for (int linha = 0; linha < 4; linha++) {
+        for (int i = 0; i < 4; i++) {
             for (int col = 0; col < 4; col++) {
-                System.out.print(matriz[linha][col] + " ");
+                System.out.print(matriz[i][col] + " ");
             }
             System.out.println(" ");
         }
