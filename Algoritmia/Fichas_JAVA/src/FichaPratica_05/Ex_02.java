@@ -18,7 +18,7 @@ public class Ex_02 {
             System.out.println("Insira um número inteiro positivo: ");
             num = input.nextInt();
 
-        }while(num<0);
+        }while(num <= 0);
 
         return num;
     }
