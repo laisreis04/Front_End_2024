@@ -17,10 +17,14 @@
 
 // console.log(facialHair)*/
 
-let nome = "Maria";
-let idade = 25;
+// let nome = "Maria";
+// let idade = 25;
 
-console.log(`Olá, ${nome}! Você tem ${idade} anos.`); 
+// console.log(`Olá, ${nome}! Você tem ${idade} anos.`); 
+
+
+
+
 
 
 
