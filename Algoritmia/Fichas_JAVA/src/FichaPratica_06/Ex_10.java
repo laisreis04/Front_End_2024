@@ -8,40 +8,35 @@ public class Ex_10 {
 
     public static void main (String[]args) throws FileNotFoundException {
 
-        //Indicar o caminho
+        //Ler ficheiro
+        File ficheiro10 = new File("Fichas_JAVA/Ficheiros_06/exercicio_10.csv");
 
-        File ficheiro = new File("Fichas_JAVA/Ficheiros_06/exercicio_10.csv");
+        Scanner leitor = new Scanner(ficheiro10);
 
-        //leitor 1
+        String linha = leitor.nextLine(); //Linha de cabeçalho
+        String tipoProduto, produto;
+        double quantidade, valorUnitario, total = 0;
 
-        Scanner scanner = new Scanner(ficheiro);
+        //Ciclo para prenncher a matriz
+        while(leitor.hasNextLine()){
+            linha = leitor.nextLine();
+            String[] itensLinha = linha.split(",");
+            tipoProduto = itensLinha[0];
+            produto = itensLinha[1];
+            quantidade = Double.parseDouble(itensLinha[2]);
+            valorUnitario = Double.parseDouble(itensLinha[3]);
 
-        String linha = scanner.nextLine();
-
-        String tipo, produto;
-        double preco, total = 0, quantidade;
-
-
-        //Ciclo para ler all o ficheiro completo
-
-        while(scanner.hasNextLine()){
-           linha = scanner.nextLine();
-           String[] itemLinha = linha.split(",");
-           tipo = itemLinha[0];
-           produto = itemLinha[1];
-           quantidade = Double.parseDouble(itemLinha[2]);
-           preco = Double.parseDouble(itemLinha[3]);
-
-           double valorTotal = quantidade * preco;
-           total = valorTotal ;
+            total += quantidade * valorUnitario;
 
         }
 
-        System.out.println("O total é: "  + total);
+        System.out.println("O valor total das vendas é de " + total + "€");
 
-        //Fechar o leitor
 
-        scanner.close();
+
+        //Fechar
+        leitor.close();
 
     }
+
 }
