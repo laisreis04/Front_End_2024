@@ -1,32 +1,54 @@
-    
-/*Exercicio 01
-// const message = "      TASTE THE RAINBOW!    "
+// let planetas = ['Mercúrio', 'Vénus', 'Terra', 'Mart', 'Jupiter', 'Saturno', 'Urano', 'Neptuno', 'Plutão']
 
-// let whisper = message.toLowerCase().trim()
+// planetas[3]= 'Marte' //Substituir
 
-// console.log(whisper)
+// planetas.pop()
 
-//Exercício 02
-// let word = "Skateboard"
+// planetas.unshift('Cesae')
+// planetas.shift()
+// planetas.shift()
 
-// //Guadar numa numa variavel 
-// let parteRemovida = word.slice(0,5)
+// console.log(planetas)
 
-// //Fazer o replace
-// let facialHair = parteRemovida.replace("o","e")
+//Exercicio 04
+// const airplaneSeats = [
+//     ['Ruth', 'Anthony', 'Stevie'],
+//     ['Amelia', 'Pedro', 'Maya'],
+//     ['Xavier', 'Ananya', 'Luis'],
+//     ['Luke', null, 'Deniz'],
+//     ['Rin', 'Sakura', 'Francisco']
+//  ];
 
-// console.log(facialHair)*/
+//  airplaneSeats[3][1] = 'Lais'
 
-// let nome = "Maria";
-// let idade = 25;
+//  console.log(airplaneSeats)
 
-// console.log(`Olá, ${nome}! Você tem ${idade} anos.`); 
+// let product = {
+//     nome:'Verniz Gel',
+//     inStock: true,
+//     price: 1.99,
+//     colors:['vermelho','azul','verde']
+// }
 
 
 
+// // console.log(product.colors[2])
 
+// //Novo valor
+// product.price = 2.55
+// console.log(product.price)
 
+//Ciclos
 
+// let numVezes = 1
+// while(numVezes <= 26){
+//     console.log("I know" + numVezes)
+// numVezes++
+// }
+
+for(let i = 25; i >= 5; i -= 5){
+    console.log(i)
+}
 
 
 
