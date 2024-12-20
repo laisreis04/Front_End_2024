@@ -1,26 +1,11 @@
-    
-/*Exercicio 01
-// const message = "      TASTE THE RAINBOW!    "
+const people = ['Scooby', "Velma", 'Daphne', 'Shaggy', 'Fred']
 
-// let whisper = message.toLowerCase().trim()
+for(let nome of people){
+    console.log(nome.toUpperCase())
+}
 
-// console.log(whisper)
 
-//Exercício 02
-// let word = "Skateboard"
 
-// //Guadar numa numa variavel 
-// let parteRemovida = word.slice(0,5)
-
-// //Fazer o replace
-// let facialHair = parteRemovida.replace("o","e")
-
-// console.log(facialHair)*/
-
-// let nome = "Maria";
-// let idade = 25;
-
-// console.log(`Olá, ${nome}! Você tem ${idade} anos.`); 
 
 
 
