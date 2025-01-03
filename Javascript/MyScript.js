@@ -1,19 +1,9 @@
-<<<<<<< HEAD
-const people = ['Scooby', "Velma", 'Daphne', 'Shaggy', 'Fred']
+// const people = ['Scooby', "Velma", 'Daphne', 'Shaggy', 'Fred']
 
-for(let nome of people){
-    console.log(nome.toUpperCase())
-}
+// for(let nome of people){
+//     console.log(nome.toUpperCase())
+// }
 
-
-
-=======
-// let planetas = ['Mercúrio', 'Vénus', 'Terra', 'Mart', 'Jupiter', 'Saturno', 'Urano', 'Neptuno', 'Plutão']
-
-// planetas[3]= 'Marte' //Substituir
-
-// planetas.pop()
->>>>>>> ad191175de01a3233563ba5babfc2ba2fe5ad13d
 
 // planetas.unshift('Cesae')
 // planetas.shift()
@@ -57,10 +47,63 @@ for(let nome of people){
 // numVezes++
 // }
 
-for(let i = 25; i >= 5; i -= 5){
-    console.log(i)
-}
+// for(let i = 25; i >= 5; i -= 5){
+//     console.log(i)
+// }
 
+// let listaCOmpras = []
+
+// let item
+// let adicionar = true
+
+// while(adicionar == true){
+//     item = prompt("Qual item você quer adicionar?")
+
+//     if(item.toLowerCase() === "fim"){
+//         adicionar = false
+//     }
+
+//     listaCOmpras.push(item)
+// }
+
+// for(let produto of listaCOmpras){
+//     console.log(produto)
+// }
+
+// 
+
+// function printHeart(){
+//     alert('<3')
+// }
+
+// function rant(word){
+
+//     word = word.toUpperCase()
+
+//     for(let i = 1; i<=3; i++){
+//         console.log(i + ' '+ word)
+        
+//     }
+// }
+
+
+// greet('Lais', 'Reis')
+
+// function greet(firstName, lastName){
+//     console.log(`Hey, ${firstName} ${lastName}`)
+// }
+
+// function isSnakeEyes(num1, num2){
+
+//     if(num1 === num2){
+//         console.log('Yay são snake eyes')
+//     }else{
+//         console.log('Não são snake eyes')
+//     }
+// }
+
+// isSnakeEyes(1,5)
+// isSnakeEyes(1,1)
 
 
 
