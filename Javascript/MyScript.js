@@ -51,7 +51,7 @@
 //     console.log(i)
 // }
 
-// let listaCOmpras = []
+// let listaCompras = []
 
 // let item
 // let adicionar = true
@@ -63,10 +63,10 @@
 //         adicionar = false
 //     }
 
-//     listaCOmpras.push(item)
+//     listaCompras.push(item)
 // }
 
-// for(let produto of listaCOmpras){
+// for(let produto of listaCompras){
 //     console.log(produto)
 // }
 
@@ -107,3 +107,33 @@
 
 
 
+// let listaDeCompras = []
+// let adicionar = true
+
+// while(adicionar === true){
+//      let item = prompt('Qual item deseja adiconar?')
+
+//     if(item.toLowerCase() === 'fim'){
+//         adicionar = false
+//     }
+
+//     listaDeCompras.push(item)
+
+// }
+
+// console.log(listaDeCompras)
+
+
+// function rant(message){
+// let word = message;
+
+
+// for(let i = 1; i <= 3; i++){
+
+//     console.log(word.toUpperCase())
+// }
+
+// }
+
+
+funt
