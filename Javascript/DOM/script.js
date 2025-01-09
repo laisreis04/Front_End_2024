@@ -8,4 +8,4 @@
 
 // Pickles
 // let name = document.querySelector('h1')
-// name.innerHTML = 'Yay'
+// name.innerText = 'Que horror'
