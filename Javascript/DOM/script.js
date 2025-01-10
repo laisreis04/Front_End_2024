@@ -18,13 +18,23 @@
 // console.log(allEvens([2,4,6,8])) //true
 // console.log(allEvens([1,12,7,4,8])) //false
 
+// const image = document.getElementById('imagem_doc')
+// console.log(image)
+
+
+const doneTodos = document.getElementsByClassName('done')
+// const doneTodos = document.querySelectorAll('.done')
+console.log(doneTodos)
+
+const checkbox = document.querySelectorAll('[type = checkbox]')
+console.log(checkbox)
 
 
 
 
 
 
-
+ 
 
 
 
