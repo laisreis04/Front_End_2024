@@ -136,4 +136,67 @@
 // }
 
 
-funt
+// const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'}, {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}]
+
+// const firstNames = fullNames.map(function(n){
+//     return console.log(n.first)
+// })
+
+// const lastNames = fullNames.forEach(function(arg){
+//     return console.log(arg.last.toUpperCase())
+// })
+
+
+// const greet = (name) => `Olá ${name}`
+// console.log(greet('Lais')) //Olá Laís 
+// -----------------
+// let soma = (a, b) => a + b
+// console.log(soma(5,4)) //9
+
+// const user10Char = validUserNames.filter(user10 => user10.length >= 10)
+//     console.log(user10Char)
+
+// function allEvens(array){
+//     return array.every(pares => pares %2 === 0)
+// }
+
+// console.log(allEvens([3,7,5,3,1])) //false
+// console.log(allEvens([2,4,6,8])) //true
+// console.log(allEvens([1,12,7,4,8])) //false
+
+
+// const greet = (nome) =>{
+//     return `Olá ${nome} você conseguiu !!! Uhullll`
+// }
+
+// console.log(greet('Lais'))
+
+// const sum = (num1, num2) => {
+//     return num1 + num2
+// }
+
+// console.log(sum(5,4))
+
+
+const validUserNames = [  
+    "CodeNinja99",
+    "SkyWalker",
+    "NeoMatrix9",
+    "JavaGuruX",
+    "PixelCat",
+    "EpicCoderX21",
+    "PythonLover99",
+    "DarkPhoenix77",
+    "TurboGamer123",
+    "UltraDev199",
+    "PixelRogue12",
+    "CyberFreak001",
+    "MegaCoder78",
+    "NerdyCoder13",
+    "CodeKnightX44"
+];
+
+const users = validUserNames.filter(num => num.length < 10)
+
+console.log(users)
+
