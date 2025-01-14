@@ -4,4 +4,5 @@
 
 // spanElements.forEach((mudarSpan , index) => {
 //     mudarSpan.style.backgroundColor = cores[index]
+    
 // });
