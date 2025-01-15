@@ -1,4 +1,4 @@
-// Todos
+// TODOS
 // const doneTodos = document.getElementsByClassName('done')
 // console.log(doneTodos)
 
@@ -6,7 +6,7 @@
 // console.log(checkbox)
 
 
-// Pickles
+// PICKLES
 // let name = document.querySelector('h1')
 // name.innerText = 'Que horror'
 
@@ -29,7 +29,7 @@
 // const checkbox = document.querySelectorAll('[type = checkbox]')
 // console.log(checkbox)
 
-//Exercício galinha
+//GALINHA/OVO
 
 // function mudarImagem(){
 //     let myImage = document.getElementById('imagem_galinha')
@@ -43,7 +43,7 @@
 //     }
 // }
 
-//Floresta
+//FLORESTA
 
 // let texto = document.getElementById('container')
 // texto.style.textAlign = 'center'
@@ -51,6 +51,41 @@
 // let floresta = document.getElementById('floresta')
 // floresta.style.width = '150px'
 // floresta.style.borderRadius = '50%'
+
+//RAINBOW
+// const spanElements = document.querySelectorAll('span')
+
+// const cores =  ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+// spanElements.forEach((mudarSpan , index) => {
+//     mudarSpan.style.backgroundColor = cores[index]
+    
+// });
+
+
+//BUTTON
+// const container = document.querySelector('.button-container');
+
+// // Função para criar um botão
+// function criarBotao(texto) {
+//     const botao = document.createElement('button');
+//     botao.textContent = texto;
+//     botao.classList.add('btn', 'btn-danger'); // Adiciona classes do Bootstrap
+//     return botao;
+// }
+
+// // Cria 100 botões e adiciona à div container
+// for (let i = 1; i <= 100; i++) {
+//     const novoBotao = criarBotao(`Botão ${i}`);
+//     container.appendChild(novoBotao);
+// }
+
+
+
+
+
+
+
 
 
 
