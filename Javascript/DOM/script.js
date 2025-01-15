@@ -22,12 +22,36 @@
 // console.log(image)
 
 
-const doneTodos = document.getElementsByClassName('done')
-// const doneTodos = document.querySelectorAll('.done')
-console.log(doneTodos)
+// const doneTodos = document.getElementsByClassName('done')
+// // const doneTodos = document.querySelectorAll('.done')
+// console.log(doneTodos)
 
-const checkbox = document.querySelectorAll('[type = checkbox]')
-console.log(checkbox)
+// const checkbox = document.querySelectorAll('[type = checkbox]')
+// console.log(checkbox)
+
+//Exercício galinha
+
+// function mudarImagem(){
+//     let myImage = document.getElementById('imagem_galinha')
+
+//     myImage.getAttribute('src');
+
+//     if(myImage.src === "https://media.istockphoto.com/id/1313823703/pt/foto/one-brown-chicken-egg-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=xwuuodcja84SvjrasjFDoor5Wo_3qT6OZ5VmtDs2RbQ="){
+//         myImage.setAttribute('src', 'https://devsprouthosting.com/images/chicken.jpg')
+//     }else{
+//         myImage.setAttribute('src', "https://media.istockphoto.com/id/1313823703/pt/foto/one-brown-chicken-egg-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=xwuuodcja84SvjrasjFDoor5Wo_3qT6OZ5VmtDs2RbQ=") 
+//     }
+// }
+
+//Floresta
+
+// let texto = document.getElementById('container')
+// texto.style.textAlign = 'center'
+
+// let floresta = document.getElementById('floresta')
+// floresta.style.width = '150px'
+// floresta.style.borderRadius = '50%'
+
 
 
 
