@@ -52,7 +52,7 @@
 // floresta.style.width = '150px'
 // floresta.style.borderRadius = '50%'
 
-//RAINBOW
+// RAINBOW
 // const spanElements = document.querySelectorAll('span')
 
 // const cores =  ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
@@ -82,6 +82,47 @@
 
 
 
+//HELLO
+
+// const btnHello = document.getElementById('helloBtn')
+// const btnBye = document.getElementById('byeBtn')
+
+// function hello(){
+//     alert('Olá')
+// }
+
+// function bye(){
+//     alert('Adeus')
+// }
+
+// btnHello.addEventListener('click',hello)
+// btnBye.addEventListener('click', bye)
+
+
+
+//MUDAR DE COR BODY
+// const btnCor = document.getElementById('btnCor')
+
+// function mudarCor(){
+
+//     let r = Math.floor(Math.random() * 256) 
+//     let g = Math.floor(Math.random() * 256)
+//     let b = Math.floor(Math.random() * 256)
+
+//     let corNova = `rgb(${r},${g},${b})`
+
+//     document.body.style.backgroundColor = corNova
+
+//     //Adicionar texto
+//     const novoElemento = document.createElement('H1')
+//     novoElemento.textContent = corNova
+    
+//     //Adicionar no HTML
+//     document.body.appendChild(novoElemento)
+// }
+
+
+// btnCor.addEventListener('click', mudarCor)
 
 
 
@@ -91,9 +132,6 @@
 
 
 
-
-
- 
 
 
 
