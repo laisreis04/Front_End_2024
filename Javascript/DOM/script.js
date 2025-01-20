@@ -22,12 +22,39 @@
 // console.log(image)
 
 
-const doneTodos = document.getElementsByClassName('done')
-// const doneTodos = document.querySelectorAll('.done')
-console.log(doneTodos)
 
-const checkbox = document.querySelectorAll('[type = checkbox]')
-console.log(checkbox)
+
+
+const btnCor = document.getElementById('btnCor')  //Botão
+
+
+function mudarCor(){
+
+let r = Math.floor(Math.random() * 256)  //red
+let g = Math.floor(Math.random() * 256)  //green
+let b = Math.floor(Math.random() * 256)  //blue
+
+
+//Criar uma cor
+
+let novaCor = `rgb(${r},${g},${b})`   //rgb(15,254,0)
+
+
+document.body.style.backgroundColor = novaCor;
+
+const novoElemento = document.createElement('h1')  //Criar um novo elemento no html
+
+
+document.body.appendChild(novoElemento)
+
+
+novoElemento.textContent = novaCor
+
+}
+
+
+
+btnCor.addEventListener('click', mudarCor)
 
 
 
