@@ -1,17 +1,15 @@
-function calculadoraSoma(){
+function calculadoraSoma() {
+  // Guardar o valor A numa variavel
+  let valorA = parseInt(document.getElementById("valorA").value);
 
-    // Guardar o valor A numa variavel
-    var valorA = parseInt(document.getElementById("valorA").value);
+  // Guardar o valor B numa variavel
+  let valorB = parseInt(document.getElementById("valorB").value);
 
-    // Guardar o valor B numa variavel
-let valorB = parseInt(document.getElementById("valorB").value);
+  let resultadoSoma = valorA + valorB;
 
-let resultadoSoma = valorA + valorB
-
-
-// Mostrar o resultado em texto
-document.getElementById("resultadoH1").innerText = "Resultado = " + resultadoSoma;
-
+  // Mostrar o resultado em texto
+  document.getElementById("resultadoH1").innerText =
+    "Resultado = " + resultadoSoma;
 }
 
 // Função Divisão
@@ -20,20 +18,15 @@ document.getElementById("resultadoH1").innerText = "Resultado = " + resultadoSom
 
 // Função Subtração
 
-
-
-
 // Função - Avaliar o tipo de opreção atraves da comparação
 
-function compararOpe(){
+function compararOpe() {
+  // Guardar o input do user numa variavel
+  let sinalOp = document.getElementById("tipoOp").value;
 
-    // Guardar o input do user numa variavel
-    let sinalOp = document.getElementById("tipoOp").value;
+  if (sinalOp === "+") {
+    calculadoraSoma();
+  }
 
-    if(sinalOp === "+"){
-        calculadoraSoma();
-    }
-
-    // IF's de comparação
-
+  // IF's de comparação
 }

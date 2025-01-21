@@ -160,8 +160,17 @@ btnCor.addEventListener('click', mudarCor)
 // btnCor.addEventListener('click', mudarCor)
 
 
+const form = document.querySelector('form'); 
 
->>>>>>> 435f4f7037ab4933f1407177ed6a7f1e9eb6f6d8
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); 
+  // Aqui você coloca o código para o que 
+  // você quer fazer com os dados do formulário, 
+  // por exemplo, mostrar uma mensagem na tela.
+});
+
+
+
 
 
 
