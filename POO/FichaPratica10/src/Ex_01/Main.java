@@ -27,7 +27,6 @@ public class Main {
         double valor = catalogo.calcularValorTotal();
         System.out.println("Valor Total " + valor);
 
-
     }
 
 }
